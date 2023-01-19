@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="containercicloud.joindatadb_0_1.testcase_tsort_0_1.TestCase_tSortTest" time="0.891" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Talend\8.0.1\plugins\org.eclipse.m2e.maven.runtime_1.18.0.20210603-1206\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="ci.builder.skip" value="true"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="GMT"/>
+    <property name="os.name" value="Windows Server 2016"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -o -s C:\Talend\8.0.1\configuration\maven_user_settings.xml test -llr -l C:/Users/student/workspace/containercicloud-1917689754/CONTAINERCICLOUD/poms/jobs/process/joindatadb_0.1/lastGenerated.log -Dtest=TestCase_tSortTest#testLocal -Dci.builder.skip=true -Dlicense.path=C:\Talend\8.0.1\license -Dsession.id=NjMzNTM1MTY3NDEzNTYxMTc4MA=="/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Users\student\workspace\containercicloud-1917689754\CONTAINERCICLOUD\poms\jobs\process\joindatadb_0.1\EMBEDDED"/>
+    <property name="test" value="TestCase_tSortTest#testLocal"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\student"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.14"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.14+8-LTS-263"/>
+    <property name="user.name" value="student"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="license.path" value="C:\Talend\8.0.1\license"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\student\AppData\Local\Temp\2\"/>
+    <property name="java.version" value="11.0.14"/>
+    <property name="user.dir" value="C:\Users\student\workspace\containercicloud-1917689754\CONTAINERCICLOUD\poms\jobs\process\joindatadb_0.1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\student\workspace\containercicloud-1917689754\CONTAINERCICLOUD\poms\jobs\process\joindatadb_0.1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Talend/zulu11.48.21-ca-jdk11.0.11-win_x64/bin/server;C:/Talend/zulu11.48.21-ca-jdk11.0.11-win_x64/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\ProgramData\GooGet;C:\Program Files\Google\Compute Engine\metadata_scripts;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\Google\Compute Engine\sysprep;C:\Program Files\VisualSVN Server\bin;C:\Program Files\Java\jdk-11.0.14\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\curl;C:\Program Files\Git\cmd;C:\Program Files\docker;C:\Users\student\AppData\Local\Microsoft\WindowsApps;C:\Users\student\AppData\Local\GitHubDesktop\bin;C:\Talend\8.0.1;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.14+8-LTS-263"/>
+    <property name="classworlds.conf" value="C:\Users\student\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf17666432632824634520.tmp"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="session.id" value="NjMzNTM1MTY3NDEzNTYxMTc4MA=="/>
+  </properties>
+  <testcase name="testLocal" classname="containercicloud.joindatadb_0_1.testcase_tsort_0_1.TestCase_tSortTest" time="0.813"/>
+</testsuite>
